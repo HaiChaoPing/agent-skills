@@ -1,0 +1,128 @@
+######################################################################
+# AI CODING ASSISTANTS
+
+# opencode
+.opencode
+!.opencode/skills
+
+# Claude Code - local settings contain personal preferences and may include tokens
+.claude
+!.claude/skills/
+CLAUDE.md
+CLAUDE.local.md
+
+# Codex CLI - local files (sessions, logs, config)
+.codex/*
+!.codex/skills/
+!.codex/prompts/
+AGENTS.md
+
+# Gemini CLI - local files (settings, tmp)
+.gemini/*
+!.gemini/skills/
+!.gemini/commands/
+
+######################################################################
+# Java Build Tools
+
+.gradle
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+.flattened-pom.xml
+
+!*/build/*.java
+!*/build/*.html
+!*/build/*.xml
+
+######################################################################
+# IDE
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+.intelliJPlatform
+.kotlin
+*.iws
+*.iml
+*.ipr
+
+### VS Code ###
+.vscode
+
+### NetBeans ###
+nbproject/private/
+build/*
+nbbuild/
+dist/
+nbdist/
+dist-ssr/
+.nb-gradle/
+
+######################################################################
+# env files
+.env
+.envrc
+.env.*
+!.env.example
+
+# JRebel
+rebel.xml
+
+# macOS - Finder metadata
+.DS_Store
+
+# CLI
+.playwright-cli
+
+# Vim/Neovim swap and backup files
+*.swp
+*.swo
+*~
+
+# Node, JS/TS
+node_modules/
+pnpm-debug
+auto-*.d.ts
+
+# Python
+debug/
+target/
+venv/
+.venv/
+__pycache__/
+*.egg-info/
+
+# just
+.justfile.local
+
+# Exclude sdk generated files
+huggingface.co/
+nltk_data/
+
+# Excluade external data
+models/
+references/
+
+# Others
+*.log
+*.xml.versionsBackup
+*.swp
+*.swo
+*~
+.history
+output/
+
+# Exclude hash-like temporary files like 9b5ad71b2ce5302211f9c61530b329a4922fc6a4
+*[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]*
+.lh/
