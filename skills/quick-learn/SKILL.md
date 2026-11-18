@@ -1,5 +1,5 @@
 ---
-name: tool-notes
+name: quick-learn
 description: 为某个工具写面向使用者的中文学习笔记时使用。先问范围与侧重侧面，按用户列举侧面的顺序给出提纲并等确认，再按提纲产出可速查的 Markdown 笔记。不适用于原理教材、API 参考、项目 README 和一次性问答。
 ---
 
